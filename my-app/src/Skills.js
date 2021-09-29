@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { StyledList, StyledOl } from './interests'
+import { StyledList, StyledOl } from './Interests'
 import { StyledHeadline } from './Profile'
 
 function Skills() {
@@ -12,7 +12,7 @@ function Skills() {
         <StyledList>CSS</StyledList>
         <StyledList>React</StyledList>
         <StyledList>Werbetexter</StyledList>
-        <StyledList>Kaufmännische Kenntnisse</StyledList>
+        <StyledList>Kaufmann</StyledList>
         <StyledList>Führungserfahrung</StyledList>
       </StyledOl>
     </StyledSkills>

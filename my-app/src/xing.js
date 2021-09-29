@@ -3,11 +3,11 @@ import Xingimg from './img/xing.svg'
 
 function Xing() {
   return (
-    <a href="https://www.xing.com/profile/falk_kreimeier">
+    <StyleA href="https://www.xing.com/profile/falk_kreimeier">
       <StyledXing>
-        <StyledImg class="link" src={Xingimg} alt="Mein Xing Profil" />
+        <StyledImg src={Xingimg} alt="Mein Xing Profil" />
       </StyledXing>
-    </a>
+    </StyleA>
   )
 }
 
@@ -16,12 +16,16 @@ export const StyledImg = styled.img`
   height: 4rem;
 `
 
+const StyleA = styled.a`
+  grid-area: xing;
+`
+
 const StyledXing = styled.div`
   height: 100px;
   display: flex;
   justify-content: center;
   background: white;
-  grid-area: xing;
+
   border-radius: var(--border-radius);
   min-width: var(--main-width);
   padding: 10px;

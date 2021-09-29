@@ -6,10 +6,12 @@ import { StyledButton } from './Portfolio'
 function Blog3() {
   return (
     <StyledBlog3>
-      <StyledHeadline>Blog-Headline</StyledHeadline>
+      <StyledHeadline>
+        Das einzige Steak, das man sich beim Essen versauen kann.
+      </StyledHeadline>
       <StyledText>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, hic
-        aperiam. Recusandae itaque excepturi eaque molestias.
+        Es gibt Hüftsteak, Filetsteak, Rumpsteak, T-Bone Steak, Rib-Eye Steak,
+        Tomahawk Steak ...
       </StyledText>
       <div>
         <StyledButton>weiterlesen</StyledButton>

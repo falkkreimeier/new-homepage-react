@@ -4,20 +4,24 @@ import { StyledImg } from './Github'
 
 function Lakritzel() {
   return (
-    <a href="https://lakritzel.com">
+    <StyledA href="https://lakritzel.com">
       <StyledLakritzel>
         <StyledImg src={Lakritzelimg} alt="Lakritzel, mein Schnaps" />
       </StyledLakritzel>
-    </a>
+    </StyledA>
   )
 }
+
+const StyledA = styled.a`
+  grid-area: lakritzel;
+`
 
 const StyledLakritzel = styled.div`
   display: flex;
   justify-content: center;
   background: white;
-  grid-area: lakritzel;
   border-radius: var(--border-radius);
+  min-width: var(--main-width);
   padding: 10px;
   &:hover {
     background: #d4d4d4;

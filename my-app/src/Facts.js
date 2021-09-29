@@ -12,6 +12,7 @@ function Facts() {
         <StyledList1>
           Voll auf Spur, aber immer auch ein kleines bisschen daneben.
         </StyledList1>
+        <br />
       </StyledOl>
       <StyledHeadline>Zitate:</StyledHeadline>
       <StyledOl>

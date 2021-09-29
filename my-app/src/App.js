@@ -2,11 +2,11 @@ import Header from './Header'
 import Profile from './Profile'
 import Reception from './Reception'
 import styled from 'styled-components'
-import Interests from './interests'
+import Interests from './Interests'
 import Skills from './Skills'
 import Facts from './Facts'
 import Portfolio from './Portfolio'
-import Xing from './xing'
+import Xing from './Xing'
 import Github from './Github'
 import Lakritzel from './Lakritzel'
 import Blog1 from './Blog1'
@@ -41,7 +41,7 @@ export default App
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+
   grid-template-areas:
     'head head head head'
     'profileArea reception reception reception'
@@ -52,4 +52,22 @@ const GridContainer = styled.div`
   grid-gap: 0.2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
+
+  @media only screen and (max-width: 375px) {
+    grid-template-areas:
+      'head'
+      'profileArea'
+      'reception'
+      'facts'
+      'interests'
+      'skills'
+      'portfolio'
+      'xing'
+      'github'
+      'lakritzel'
+      'blog1'
+      'blog2'
+      'blog3'
+      'footer';
+  }
 `

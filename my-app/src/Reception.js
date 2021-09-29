@@ -4,16 +4,17 @@ import { StyledHeadline } from './Profile'
 function Reception() {
   return (
     <StyledReceptionContainer>
-      <StyledHeadline>Oh, ein Gast</StyledHeadline>
+      <StyledHeadline>Oh, ein Gast!</StyledHeadline>
       <StyledText>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-        excepturi suscipit, quos exercitationem dolore corporis voluptatem
-        repellat incidunt, asperiores laudantium recusandae nam beatae corrupti
-        optio a deserunt accusamus sed delectus? <br /> <br />
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-        excepturi suscipit, quos exercitationem dolore corporis voluptatem
-        repellat incidunt, asperiores laudantium recusandae nam beatae corrupti
-        optio a deserunt accusamus sed delectus?
+        Schön, Sie/Dich kennen zu lernen ... ähh... oder besser gesagt andersrum
+        – und damit Herzlich Willkommen! Ich bin Falk, Programmierer,
+        Werbetexter, Kaufmann und Schnaps-Dealer. Man könnte sagen, ich habe
+        viele Seiten, und das hier ist eine davon. <br /> <br />
+        Lakritzel.com, die App und diese Unterseite habe ich komplett
+        programmiert und bekritzelt ... textet. Das Zeichnen gehört leider nicht
+        zu meinen Stärken, aber dafür kenne ich viele talentierte Art-Directoren
+        und Illiustratoren. Wer jetzt denkt: "Sieht geil aus, will ich auch!"
+        Unten steht meine Telefonnummer – Ruf mich an, ich mach das.
       </StyledText>
     </StyledReceptionContainer>
   )
