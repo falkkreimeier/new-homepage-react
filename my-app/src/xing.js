@@ -21,9 +21,10 @@ const StyleA = styled.a`
 `
 
 const StyledXing = styled.div`
-  height: 100px;
+  height: 110px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: white;
 
   border-radius: var(--border-radius);

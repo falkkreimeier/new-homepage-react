@@ -30,8 +30,8 @@ function App() {
       <Github />
       <Lakritzel />
       <Blog1 />
-      <Blog2 />
-      <Blog3 />
+      {/* <Blog2 />
+      <Blog3 /> */}
       <Footer />
     </GridContainer>
   )
@@ -47,7 +47,7 @@ const GridContainer = styled.div`
     'profileArea reception reception reception'
     'profileArea interests skills portfolio'
     'facts xing github lakritzel'
-    'facts blog1 blog2 blog3'
+    'facts blog1 blog1 blog1'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;

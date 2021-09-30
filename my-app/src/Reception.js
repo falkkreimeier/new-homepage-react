@@ -14,7 +14,7 @@ function Reception() {
         programmiert und bekritzelt ... textet. Das Zeichnen gehört leider nicht
         zu meinen Stärken, aber dafür kenne ich viele talentierte Art-Directoren
         und Illiustratoren. Wer jetzt denkt: "Sieht geil aus, will ich auch!"
-        Unten steht meine Telefonnummer – Ruf mich an, ich mach das.
+        Unten steht meine Telefonnummer – Einfach anrufen, ich mach das.
       </StyledText>
     </StyledReceptionContainer>
   )

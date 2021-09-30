@@ -21,8 +21,10 @@ const StyledA = styled.a`
 `
 
 const StyledGithub = styled.div`
+  height: 110px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: white;
   border-radius: var(--border-radius);
   min-width: var(--main-width);

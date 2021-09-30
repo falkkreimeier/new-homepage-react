@@ -21,6 +21,7 @@ function Blog1() {
 }
 
 const StyledBlog1 = styled.div`
+  height: 190px;
   display: flex;
   flex-direction: column;
   background: white;
