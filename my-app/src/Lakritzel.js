@@ -17,7 +17,7 @@ const StyledA = styled.a`
 `
 
 const StyledLakritzel = styled.div`
-  height: 110px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;

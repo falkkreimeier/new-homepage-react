@@ -22,7 +22,7 @@ const StyledHeadline = styled.h1`
   text-align: center;
   font-size: 1.3rem;
   padding-bottom: 10px;
-  margin: 2px 0px 2px 0px;
+  margin: 0px 0px 2px 0px;
   text-decoration: none;
   color: white;
 `

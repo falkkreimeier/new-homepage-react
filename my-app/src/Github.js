@@ -13,7 +13,7 @@ function Github() {
 
 export const StyledImg = styled.img`
   position: sticky;
-  height: 5rem;
+  height: 4rem;
 `
 
 const StyledA = styled.a`
@@ -21,7 +21,7 @@ const StyledA = styled.a`
 `
 
 const StyledGithub = styled.div`
-  height: 110px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;

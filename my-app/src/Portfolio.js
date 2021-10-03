@@ -55,7 +55,7 @@ export const StyledButton = styled.button`
 `
 
 const StyledPortfolioImg = styled.img`
-  max-height: 6rem;
+  max-height: 5rem;
   margin: 0px 0px 15px 0px;
 `
 
