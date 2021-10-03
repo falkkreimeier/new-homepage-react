@@ -31,7 +31,7 @@ const StyledFotter = styled.footer`
   }
 `
 const StyledText = styled.p`
-  margin: 0px 0px 20px 0px;
+  margin: 0;
   font-family: 'Inter', sans-serif;
 
   @media only screen and (max-width: 375px) {
