@@ -12,8 +12,7 @@ function Skills() {
         <StyledList>CSS</StyledList>
         <StyledList>React</StyledList>
         <StyledList>Werbetexter</StyledList>
-        <StyledList>Kaufmann</StyledList>
-        <StyledList>Führungserfahrung</StyledList>
+        <StyledList>Kaufmann mit Führungserfahrung </StyledList>
       </StyledOl>
     </StyledSkills>
   )

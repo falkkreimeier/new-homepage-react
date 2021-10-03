@@ -13,7 +13,7 @@ function Xing() {
 
 export const StyledImg = styled.img`
   position: sticky;
-  height: 4rem;
+  height: 3rem;
 `
 
 const StyleA = styled.a`
@@ -21,7 +21,7 @@ const StyleA = styled.a`
 `
 
 const StyledXing = styled.div`
-  height: 110px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
