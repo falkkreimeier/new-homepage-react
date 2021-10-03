@@ -30,8 +30,8 @@ function App() {
       <Github />
       <Lakritzel />
       <Blog1 />
-      {/* <Blog2 />
-      <Blog3 /> */}
+      <Blog2 />
+      <Blog3 />
       <Footer />
     </GridContainer>
   )
@@ -41,13 +41,13 @@ export default App
 
 const GridContainer = styled.div`
   display: grid;
-
+  max-width: 100vh;
   grid-template-areas:
     'head head head head'
     'profileArea reception reception reception'
     'profileArea interests skills portfolio'
     'facts xing github lakritzel'
-    'facts blog1 blog1 blog1'
+    'facts blog1 blog2 blog3'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
@@ -69,5 +69,6 @@ const GridContainer = styled.div`
       'blog2'
       'blog3'
       'footer';
+    grid-gap: 0.5rem;
   }
 `
