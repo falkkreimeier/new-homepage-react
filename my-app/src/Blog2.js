@@ -12,7 +12,7 @@ function Blog2() {
       </StyledHeadline>
       <StyledText>
         Es gibt Hüftsteak, Filetsteak, Rumpsteak, T-Bone Steak, Rib-Eye Steak,
-        Tomahawk Steak ...
+        Tomahawk Steak...
       </StyledText>
       <div>
         <StyledButton>weiterlesen</StyledButton>
@@ -22,11 +22,16 @@ function Blog2() {
 }
 
 const StyledBlog2 = styled.div`
+  width: 350px;
   display: flex;
   flex-direction: column;
   background: white;
   grid-area: blog2;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
+  @media only screen and (max-width: 375px) {
+    max-width: 375px;
+    margin: 0;
+  }
 `
 export default Blog2
